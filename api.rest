@@ -1,0 +1,19 @@
+###
+GET http://localhost:5000/api/post
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/post/comments
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/post/comment/?id=165&email=Blake_Spinka@robyn.info&postId=33
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/post/posts
+Content-Type: application/json
+
+###
+GET http://localhost:5000/api/post/topposts
+Content-Type: application/json
